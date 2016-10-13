@@ -1,0 +1,1 @@
+oro-crm-bootable
