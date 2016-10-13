@@ -4,10 +4,6 @@ export APP_DATABASE_HOST="db"
 
 echo "App booting"
 
-echo "Composer installing ..."
-cd /var/www/html/ && \
-composer install
-
 echo "Setting up Nginx ..."
 rm /etc/nginx/sites-enabled/*
 mv /var/www/html/nginx.conf /etc/nginx/sites-available/default.conf
