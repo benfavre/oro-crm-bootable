@@ -5,7 +5,7 @@ export APP_DATABASE_HOST="db"
 echo "App booting"
 
 echo "Composer installing ..."
-cd /var/www/html/app/ && \
+cd /var/www/html/ && \
 composer install
 
 echo "Setting up Nginx ..."
